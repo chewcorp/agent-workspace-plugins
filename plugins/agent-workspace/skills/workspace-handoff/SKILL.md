@@ -16,9 +16,10 @@ Follow the push policy from `AGENTS.md`.
 
 **Direct push allowed** (a living workspace):
 
-1. `git pull --rebase` before committing.
-2. `git push origin main`.
+1. Commit your work first, so the tree is clean.
+2. `git pull --rebase`, then `git push origin main`.
 3. If the push is rejected because another agent pushed first, run `git pull --rebase` again, fix any conflicts by keeping both sides' content, and push again. Never force-push `main`.
+4. Handing on to Codex? Use the branch-and-PR flow below instead, because Codex only answers on PRs.
 
 **Otherwise**, or when unsure:
 

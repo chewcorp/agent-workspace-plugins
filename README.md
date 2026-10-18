@@ -35,7 +35,7 @@ Codex reads `.claude-plugin/marketplace.json` as a marketplace: `codex plugin ma
 
 ### Cursor
 
-Copy or symlink the skill folders into the repo's `.agents/skills/`, which Cursor and Codex both read.
+Put `plugins/agent-workspace` in `~/.cursor/plugins/local` (Cursor reads the root `plugin.json` as an open Agent Plugin), or copy the skill folders into a workspace repo's `.agents/skills/`, which Cursor and Codex both read.
 
 ## License
 
