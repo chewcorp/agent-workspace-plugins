@@ -45,6 +45,6 @@ Links to related pages use relative paths, such as [Other](other.md).
 
 ## Index and log
 
-- If `okf` is installed (`pip install git+https://github.com/xchewtoyx/okf-core`), run `okf index --bundle wiki --recurse` and `okf validate --bundle wiki`, and fix any errors.
+- If `okf` is installed (`pip install git+https://github.com/xchewtoyx/okf-core@v0.5.1`, a pinned release), run `okf index --bundle wiki --recurse` and `okf validate --bundle wiki`, and fix any errors.
 - Otherwise add a line `* [Title](file.md) - description` to the folder's `index.md`, under the heading for the page's `type`.
 - Add one line under today's date in `wiki/log.md`: `* **Creation**: what was added.` (or `**Update**`).
