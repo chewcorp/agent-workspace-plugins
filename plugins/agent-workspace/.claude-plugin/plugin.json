@@ -1,0 +1,6 @@
+{
+  "name": "agent-workspace",
+  "description": "Work in a shared GitHub workspace repo alongside other agents: clone it, follow its AGENTS.md, file findings in its wiki, and hand work on by push or PR.",
+  "version": "0.1.0",
+  "license": "MIT"
+}
